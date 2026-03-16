@@ -89,21 +89,6 @@ The reference complex set was assembled from curated yeast complex resources, in
 
 ---
 
-## Repository structure
-
-A typical repository organization is as follows:
-
-```text
-PCIPG2.0/
-├── data/                  # processed benchmark inputs and auxiliary files
-├── omics/                 # multi-omics preprocessing and fusion
-├── structure/             # residue-graph construction and structural embeddings
-├── model/                 # GNN / autoencoder models
-├── evaluation/            # evaluation scripts and metrics
-├── scripts/               # training / inference / utility scripts
-├── main.sh                # quick-start entry point
-└── README.md
-
 ## Quick Start
 ```bash
 bash main.sh
